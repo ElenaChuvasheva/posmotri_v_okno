@@ -11,6 +11,9 @@ html {
 .page {
   margin: 0 auto;
   color: #fff;
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
