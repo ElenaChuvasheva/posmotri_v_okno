@@ -74,11 +74,6 @@ ol {
   padding: 133px 30px;
 }
 
-.content__details {
-  inline-size: 399px;
-  block-size: 540px;
-}
-
 .result__video-container {
   position: relative;
   margin-top: 78px;
@@ -163,6 +158,11 @@ ol {
   align-self: flex-end;
 }
 
+.content__details {
+  inline-size: 399px;
+  block-size: 540px;
+}
+
 .title {
   margin-top: 3px;
   padding-bottom: 22px;
@@ -217,6 +217,10 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
+}
+
+.content__video-card-description-container {
+  overflow-wrap: anywhere;
 }
 
 .content__video-card-thumbnail {
